@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- as giving an error till i removed style sheet  -->
+  <link rel="stylesheet" type="text/css" href = '/public/assets/css/style.css'>
+  <link rel="stylesheet" href="https://bootswatch.com/5/cosmo/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <title>Micro Posts App</title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <div class="navbar navbar-dark bg-primary mb-3">
+    <div class="container">
+      <div class="navbar-brand">MicroPosts</div>
+    </div>
+  </div>
+  <div class="mb-5 container postsContainer">
+    <div class="card card-body card-form">
+      <h1>Say Something</h1>
+      <p class="lead">what's on your mind?</p>
+      <div class="form-group">
+        <input type="text" id="title" class="form-control" placeholder="Post Title">
+      </div>
+      <br>
+      <div class="form-group">
+        <textarea id="body" class="form-control" placeholder="Post Body"></textarea>
+      </div>
+      <br>
+      <!-- will be used to store id when editing -->
+      <input type="hidden" id="id" value="">
+      <button class="post-submit btn btn-primary btn-block">Post It</button>
+      <span class="form-end"></span>
+    </div>
+    <br>
+    <div id="posts" class="mb-5"></div>
+  </div>
+  <footer class="mt-2 text-center bg-light p-3 fixed-bottom">
+    MocroPosts &copy
+  </footer>
+</body>
+</html>

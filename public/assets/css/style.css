@@ -1,0 +1,9 @@
+.delete{
+  color: rgb(254, 1, 1);
+}
+body{
+  background-color: yellow;
+}
+.postsContainer{
+  margin-bottom: 2000px;
+}
