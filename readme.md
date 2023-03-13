@@ -31,11 +31,11 @@ npm run build
 ## Demo App
 
 The demo app is a Full CRUD application compiled with webpack. 
-Install other packages as needed ``npm instal``
+Install other packages as needed ``npm install``
 
 - src/app.js (main javascript)
 - src/http.js (fetch request javascript)
 - src/ui.js (DOM manipulation javascript)
 - src/template.html (template)
 - public/assets/css/style.css (styles)
-- dist(compiled project(gotten after running ``npm run dev`` in git terminal))
+- dist(compiled project(gotten after running ``npm run build`` in git terminal))
